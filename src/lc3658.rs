@@ -47,6 +47,12 @@
 use crate::Solution;
 impl Solution {
 
+    // fn main() {
+    //     let result = Solution::gcd_of_odd_even_sums( 4);
+    //     println!("{}", result);
+    // }
+
+
     ///由于 gcd(n**2,n×(n−1))=n×gcd(n,n+1)，又 n 与 n+1 互质，因此 gcd(n,n+1)=1，故 gcd(n**2,n×(n+1))=n
     pub fn gcd_of_odd_even_sums(n: i32) -> i32 {
        n

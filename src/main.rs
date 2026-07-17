@@ -3,7 +3,6 @@ use leetcode::Solution;
 
 
 fn main() {
-    let result = Solution::gcd_of_odd_even_sums( 4);
-    println!("{}", result);
-
+    let result = Solution::gcd_values(vec![2,3,4],vec![0,2,2]);
+    println!("{:?}", result);
 }
