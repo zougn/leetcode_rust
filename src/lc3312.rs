@@ -65,6 +65,11 @@ use crate::Solution;
 
 
 impl Solution {
+
+    // fn main() {
+    //     let result = Solution::gcd_values(vec![2,3,4],vec![0,2,2]);
+    //     println!("{:?}", result);
+    // }
    pub fn gcd_values(nums: Vec<i32>, queries: Vec<i64>) -> Vec<i32> {
         let m = *nums.iter().max().unwrap() as usize;
         let mut cnt = vec![0i64; m + 1];

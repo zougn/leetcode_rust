@@ -8,4 +8,5 @@ pub struct Solution{
 // mod lc3658;
 // mod  lc3867;
 // mod lc2981;
-mod lc3312;
+// mod lc3312;
+mod lc1081;
